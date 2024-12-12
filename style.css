@@ -1,0 +1,206 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: "Parkinsans", sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+@media (max-width : 910px) {
+    h1{
+        font-size: 3em;
+        font-weight: 600;
+        padding: 0px 5px;
+        margin: 0;
+    }
+    .anim1{
+        display: inline;
+        width: 450px;
+        border-radius: 5px;
+    }
+    #p4{
+        color: hwb(205 1% 1%);
+    }
+    .page1{
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000406;
+    }
+    /* Side Bar */
+    #sidebar{
+        display: none;
+        justify-content: center;
+    }
+    
+    #sidebar ul{
+        /* display: flex;   */
+        height: 53px; 
+        border-radius: 5px;
+        margin: 13px 114px;
+    }
+    
+    #sidebar ul li{ 
+        list-style: none;
+        font-size: 1.5rem;
+    }
+    
+    #sidebar ul li a{
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 500;
+    }
+    
+    #sidebar ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+    
+    /* Navigation Bar */
+    #navbar{
+        display: none;
+        justify-content: center;
+    }
+    
+    #navbar ul{
+        display: flex;  
+        height: 53px; 
+        border-radius: 5px;
+        margin: 13px 114px;
+    }
+    
+    #navbar ul li{ 
+        list-style: none;
+        font-size: 1.5rem;
+    }
+    
+    #navbar ul li a{
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 500;
+    }
+    
+    #navbar ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+    
+    /* home page  */
+    .page2{
+        display: none;
+        height: 100vh;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #profile{
+        height: 400px;
+        width: 400px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #introhead{
+        font-size: 3em;
+        
+    }
+    .intro p {
+        font-size: 1.2rem;
+    }
+}
+h1{
+    font-size: 3em;
+    font-weight: 600;
+    padding: 0px 5px;
+    margin: 0;
+}
+.anim1{
+    display: inline;
+    width: 450px;
+    border-radius: 5px;
+}
+#p4{
+    color: hwb(205 1% 1%);
+}
+.page1{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000406;
+}
+
+
+/* Navigation Bar */
+#navbar{
+    display: none;
+    justify-content: center;
+}
+
+#navbar ul{
+    display: flex;  
+    height: 53px; 
+    border-radius: 5px;
+    margin: 13px 114px;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* home page  */
+.page2{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#profile{
+    height: 400px;
+    width: 400px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    
+}
+#introhead{
+    font-size: 3em;
+    
+}
+.intro p {
+    font-size: 1.2rem;
+}
