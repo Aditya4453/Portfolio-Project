@@ -31,38 +31,6 @@ body{
         align-items: center;
         background-color: #000406;
     }
-    /* Side Bar */
-    #sidebar{
-        display: none;
-        justify-content: center;
-    }
-    
-    #sidebar ul{
-        /* display: flex;   */
-        height: 53px; 
-        border-radius: 5px;
-        margin: 13px 114px;
-    }
-    
-    #sidebar ul li{ 
-        list-style: none;
-        font-size: 1.5rem;
-    }
-    
-    #sidebar ul li a{
-        display: block;
-        padding: 3px 22px;
-        border-radius: 20px;
-        text-decoration: none;
-        color: aliceblue;
-        font-weight: 500;
-    }
-    
-    #sidebar ul li a:hover{
-        color: black;
-        background-color: white;
-    }
-    
     /* Navigation Bar */
     #navbar{
         display: none;
@@ -150,6 +118,11 @@ h1{
 /* Navigation Bar */
 #navbar{
     display: none;
+    position: fixed;
+    left: 50%;
+    width: 940px;
+    transform: translate(-50%,0%);
+    align-items: center;
     justify-content: center;
 }
 
@@ -189,18 +162,89 @@ h1{
     align-items: center;
 }
 #profile{
-    height: 400px;
-    width: 400px;
+    height: 440px;
+    width: 470px;
 }
 .intro{
     display: flex;
     flex-direction: column;
-    
+    width: 50%;
 }
 #introhead{
-    font-size: 3em;
+    font-size: 2em;
     
 }
 .intro p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+
+
+/* myself page  */
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.intros{
+    padding: 30px;
+    width: 50vw;
+    margin: 10px;
+}
+.intros h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.page3 img{
+    height: 93vh;
+    border-radius: 20px;
+    border: transparent 9px solid;
+}
+.intros p{
+    background: rgba(76, 111, 175, 0.15);
+    border-radius: 5px;
+    width: 90%;
+}
+#start{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.intros button{
+    background: #00daff38;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+
+/* Skills Page  */
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+::selection{
+    color: white;
+    background-color: black;
 }

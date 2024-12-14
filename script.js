@@ -38,12 +38,14 @@ tl.to(".page1", {
 
                 // Show main content and enable scrolling
                 const navbar = document.querySelector("#navbar");
-                const sidebar = document.querySelector("#sidebar");
                 const page2 = document.querySelector(".page2");
+                const page3 = document.querySelector(".page3");
+                const page4 = document.querySelector(".page4");
                 if (navbar) {
                         navbar.style.display = "flex";
-                        sidebar.style.display = "block";
                         page2.style.display="flex";
+                        page3.style.display="flex";
+                        page4.style.display="flex";
                         // document.body.style.overflow = "auto";
         }}});
 
